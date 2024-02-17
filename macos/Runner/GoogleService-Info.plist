@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyADh56JpzFsb_c-5xXHpBn0dYkMCYqhAyY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>755666712168</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.crossFitness.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>cross-fitness-f4c86</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cross-fitness-f4c86.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:755666712168:ios:db7b52f5c5342bd0652ddd</string>
+</dict>
+</plist>
