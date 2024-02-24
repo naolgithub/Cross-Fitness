@@ -50,7 +50,7 @@ class _ForgotPasswordContentState extends State<ForgotPasswordContent> {
   }
 
   Widget _createLoading() {
-    return FitnessLoading();
+    return const FitnessLoading();
   }
 
   Widget _createMainData(BuildContext context) {
