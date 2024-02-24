@@ -6,9 +6,12 @@ class SettingsContainer extends StatelessWidget {
   final Widget child;
   final Function()? onTap;
 
-  const SettingsContainer(
-      {Key? key, this.withArrow = false, required this.child, this.onTap})
-      : super(key: key);
+  const SettingsContainer({
+    super.key,
+    this.withArrow = false,
+    required this.child,
+    this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -22,9 +25,10 @@ class SettingsContainer extends StatelessWidget {
           color: ColorConstants.white,
           boxShadow: [
             BoxShadow(
-                color: ColorConstants.textBlack.withOpacity(0.12),
-                blurRadius: 5.0,
-                spreadRadius: 1.1)
+              color: ColorConstants.textBlack.withOpacity(0.12),
+              blurRadius: 5.0,
+              spreadRadius: 1.1,
+            )
           ],
         ),
         child: Material(
@@ -38,8 +42,11 @@ class SettingsContainer extends StatelessWidget {
                 children: [
                   Expanded(child: child),
                   if (withArrow)
-                    const Icon(Icons.arrow_forward_ios,
-                        color: ColorConstants.primaryColor, size: 20)
+                    const Icon(
+                      Icons.arrow_forward_ios,
+                      color: ColorConstants.primaryColor,
+                      size: 20,
+                    )
                 ],
               ),
             ),
