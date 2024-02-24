@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755666712168",
+    "project_id": "cross-fitness-f4c86",
+    "storage_bucket": "cross-fitness-f4c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755666712168:android:30637decdcac3b37652ddd",
+        "android_client_info": {
+          "package_name": "com.example.cross_fitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj1ukCetyIAQ-UJI7IBaAmQlnPhYjUB-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
