@@ -175,4 +175,12 @@ class TextConstants {
   static const sendActivationBuild = 'Send Activation Link';
   static const resetPasswordLinkWasSent =
       'Reset password link was sent on your email.';
+
+  //The following added by Naol
+  static const didYouKnow = 'Did you know';
+  static const sportActivity = 'Sport activity improves memory!';
+  static const signToStart = "Sooo, it's sign to start now!";
+  static const startWorkout = 'Start workout!';
+  static const finish = 'finish';
+  static const continueT = 'continueT';
 }
